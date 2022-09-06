@@ -1,9 +1,6 @@
 start.time <- Sys.time()
 
-opcion <- readline("Elija una opcion ")
-opcion <- as.numeric(num)
-
-
+opcion <- 2
 
 n = 1000000
 v_min <- 1
@@ -23,13 +20,7 @@ data=data.frame(items,weight,value)
 cat("\nnumero total de items", n) 
 cat("\n")
 #data
-if(opcion==1){
-    byValue()
-} else if( opcion == 2){
-    byWeight()
-}else{
-    byRatio()
-}
+
 #create the function that we want to optimize
 byValue=function()
 {
@@ -93,6 +84,14 @@ byRatio=function()
     
     cat("\n Peso final: ", current_weight)
     cat("\n Valor final: ", current_value)
+}
+
+if(opcion==1){
+    byValue()
+} else if( opcion == 2){
+    byWeight()
+}else{
+    byRatio()
 }
 
 
