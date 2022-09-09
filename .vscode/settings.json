@@ -1,6 +1,0 @@
-{
-    "r.rpath.windows": "C:\\Program Files\\R\\R-4.2.1\\bin\\x64\\R.exe",
-    "r.rterm.windows": "C:\\Program Files\\R\\R-4.2.1\\bin\\x64\\R.exe",
-    "r.rpath.linux": "/mnt/c/Program Files/R/R-4.2.1/bin/x64/R.exe",
-    "r.rterm.linux": "/mnt/c/Program Files/R/R-4.2.1/bin/x64/R.exe"
-}
